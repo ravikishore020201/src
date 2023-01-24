@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+.add-todo-container{
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    }
+.add-todo-container > input{
+ width: 30%;
+ height: 25px;
+margin: 10px;
+}
+.add-todo-container > button{
+    color: blueviolet;
+    height: 30px;
+}
+.add-todo-container > button:hover{
+    cursor: pointer;
+}
+.todo-container>ul>li{
+    width: 50%;
+    margin: 15px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo-container>ul>li>div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.features{
+    display: flex;
+    flex:0.3;
+}
+.tick{
+    background-color: black;
+    font-size: large;
+}
+.features>button{
+    
+    background-color: red;
+    margin: 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.todo-container>ul{
+    
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-todolist{
+    text-align: center;
+    
+    color: aqua;
+    
+    width: 100vw;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(3, 128, 128);
+    margin: 2rem;
+   border-radius: 10px;
+}
+.Empty-msg{
+    margin: 5%;
+    background-color: aqua;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}
